@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>MyPortofolio - Ikhsan Farizki</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="navigation-header">
+      <!-- Navigation -->
+      <nav>
+        <!-- Logo -->
+        <a href="#home" class="logo"> <img src="./image/logo.png" alt="" /></a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="" class="cta-button">Hire Me</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+      <div class="container">
+        <h1>Muhammad</h1>
+        <h1>Victo irlyado</h1>
+        <p class="subtitle">Frontend Developer</p>
+        <p class="description">
+          Saya adalah lulusan <b>Teknik Informatika</b> yang sangat menyukai
+          <u><b>frontend web</b></u> dan tertarik kepada web desain
+        </p>
+        <a
+          href="./resume/Muhammad Victo Irlyando-frontend-it-resume.pdf"
+          download="myresume"
+          class="cta-button"
+          >Download CV</a
+        >
+      </div>
+      <div class="photo">
+        <img src="./image/profile-Photoroom.png" alt="" />
+      </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-me">
+      <div class="container">
+        <!-- About Photo -->
+        <div class="about-photo">
+          <img src="image/Image 831.png" alt="Avatar" />
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+          <h2>
+            Haiii!! kenalin <br />
+            Namaku Victo
+          </h2>
+          <p>
+            Sebagai seorang front-end engineer, saya senang menciptakan
+            pengalaman digital yang memukau secara visual dan berfungsi dengan
+            lancar, yang memadukan kreativitas dan teknologi.
+          </p>
+          <p>
+            Saat saya tidak sibuk membuat kode, Anda akan sering mendapati saya
+            menekuni minat saya yang lain. Saya penggemar berat angkat beban dan
+            bulu tangkis, dan selalu mencari sensasi kompetisi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid cards">
+          <div class="card green">
+            <!-- <p class="tip">Hover Me</p> -->
+            <i class="fa-brands fa-html5" style="color: #e65100"></i>
+            <p class="second-text">HTML</p>
+          </div>
+
+          <div class="card green">
+            <i class="fa-brands fa-css3-alt" style="color: #0277bd"></i>
+            <p class="second-text">CSS</p>
+          </div>
+          <div class="card green">
+            <i class="fa-brands fa-js" style="color: #ffd600"></i>
+            <p class="second-text">JavaScript</p>
+          </div>
+          <div class="card green">
+            <i
+              class="fa-brands fa-bootstrap"
+              style="color: rgb(124, 77, 255)"
+            ></i>
+            <p class="second-text">Bootstrap</p>
+          </div>
+          <div class="card green">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#00acc1"
+                d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
+              ></path>
+            </svg>
+            <p class="second-text">TailwindCSS</p>
+          </div>
+          <div class="card green">
+            <i class="fa-brands fa-react" style="color: #53c1de"></i>
+            <p class="second-text">ReactJS</p>
+          </div>
+          <div class="card green">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#e64a19"
+                d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"
+              ></path>
+              <path
+                fill="#7c4dff"
+                d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"
+              ></path>
+              <path
+                fill="#66bb6a"
+                d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"
+              ></path>
+              <path
+                fill="#ff7043"
+                d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"
+              ></path>
+              <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+            </svg>
+            <p class="second-text">Figma</p>
+          </div>
+          <div class="card green">
+            <i class="fa-brands fa-square-git" style="color: #f4511e"></i>
+            <p class="second-text">Git</p>
+          </div>
+          <div class="card green">
+            <i class="fa-brands fa-github"></i>
+            <p class="second-text">GitHub</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="portfolio">
+      <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="portfolio-grid">
+          <div class="card-porto ">
+            <div class="main-content">
+              <div class="header">
+                <span>Project Of</span>
+                <span>Diskominfo</span>
+              </div>
+              <img src="image/hero.jpg" alt="" />
+              <p class="heading">Different ways to use CSS in React</p>
+              <div class="categories">
+                <span>TailwindCSS</span>
+                <span>React</span>
+                <span>Css</span>
+              </div>
+            </div>
+            <div class="tab-container">
+              <a href="#" class="tab tab--1"
+                >Open <i class="fa-solid fa-door-open"></i
+              ></a>
+              <a href="#" class="tab tab--2"><i class="fa-brands fa-square-github"></i> GitHub</a>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="card-porto">
+            <div class="main-content">
+              <div class="header">
+                <span>Project Of</span>
+                <span>Diskominfo</span>
+              </div>
+              <img src="image/hero.jpg" alt="" />
+              <p class="heading">Different ways to use CSS in React</p>
+              <div class="categories">
+                <span>TailwindCSS</span>
+                <span>React</span>
+                <span>Css</span>
+              </div>
+            </div>
+            <div class="tab-container">
+              <a href="#" class="tab tab--1"
+                >Open <i class="fa-solid fa-door-open"></i
+              ></a>
+              <a href="#" class="tab tab--2"><i class="fa-brands fa-square-github"></i> GitHub</a>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="card-porto">
+            <div class="main-content">
+              <div class="header">
+                <span>Project Of</span>
+                <span>Diskominfo</span>
+              </div>
+              <img src="image/hero.jpg" alt="" />
+              <p class="heading">Different ways to use CSS in React</p>
+              <div class="categories">
+                <span>TailwindCSS</span>
+                <span>React</span>
+                <span>Css</span>
+              </div>
+            </div>
+            <div class="tab-container">
+              <a href="#" class="tab tab--1"
+                >Open <i class="fa-solid fa-door-open"></i
+              ></a>
+              <a href="#" class="tab tab--2"><i class="fa-brands fa-square-github"></i> GitHub</a>
+              <div class="indicator"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+
+        <p>
+          Mari berteman memalui social media di bawah ini yaa
+          <i class="fa-solid fa-down-long"></i>
+        </p>
+
+        <div class="contact-grid">
+          <!-- Additional Contact Information -->
+          <div class="contact-info">
+            <b><i class="fa-solid fa-envelope"></i>Email</b>
+            <p>victoirlyando765@gmail.com</p>
+            <b><i class="fa-brands fa-whatsapp"></i>Phone</b>
+            <p>+628123456789</p>
+            <b><i class="fa-solid fa-location-dot"></i>Address</b>
+            <p>+628123456789</p>
+            <b><i class="fa-solid fa-user-plus"></i>Follow Me</b><br />
+            <div class="social-link">
+              <a href=""><i class="fa-brands fa-line"></i></a>
+              <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+              <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-square-github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="container ">
+            <div class="cart ">
+              <a class="form">Get In Touch</a>
+              <div class="inputBox1">
+                <input type="text" required="required" />
+                <span class="user">Email</span>
+              </div>
+
+              <div class="inputBox">
+                <input type="text" required="required" />
+                <span>Username</span>
+              </div>
+
+              <div class="inputBox">
+                <textarea
+                  name=""
+                  id=""
+                  type="text"
+                  required="required"
+                  rows="5"
+                ></textarea>
+                <span>massage</span>
+              </div>
+
+              <!-- <button class="enter">Enter</button> -->
+              <center class="btn-send">
+                <a href="#">
+                  SEND
+                  <span></span>
+                </a>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Muhammad Victo Irlyando. All Rights Reserved.</p>
+
+        <div class="footer-links">
+          <a href="#" target="_blank" class="footer-link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#" target="_blank" class="footer-link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="mailto:example@example.com" class="footer-link"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
